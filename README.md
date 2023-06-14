@@ -1,6 +1,6 @@
 # Equiva key-ble Smart Lock and Integration with Home Assistant using keyble and keyble-mqtt
 
-Hey there! Are you looking to integrate your eqiva smart lock into your smart home and control it using Home Assistant? The Equiva key-ble Smart Lock is a great and affordable solution for that. It offers quality and security at an affordable price. However, the lock can only be controlled through the manufacturer's official Android or iOS app, making it difficult to integrate into existing smart home systems. But don't worry, there's a solution called keyble that allows you to control the Equiva key-ble Smart Lock using your computer and integrate it with Home Assistant.
+Hey there! Are you struggeling to integrate your eqiva smart lock into your smart home and control it using Home Assistant? Don't worry, there's a solution called keyble that allows you to control the Equiva key-ble Smart Lock using your computer and integrate it with Home Assistant.
 
 Before we begin, I want to emphasize that making a door lock accessible over the network or the internet comes with certain security risks. If you choose to follow this guide, please be aware of the risks involved and take appropriate measures to secure your network and Home Assistant installation.
 
