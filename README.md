@@ -51,9 +51,7 @@ Make sure the installation process completes without any errors.
 
 ## Registering a User with keyble-registeruser
 
-To control the Equiva key-ble Smart Lock, you'll need a user ID and the corresponding 128-bit user key. Since the manufacturer's official app doesn't provide a way to retrieve this information, you'll first need to register a new user. For that, we'll use the key
-
-ble-registeruser tool.
+To control the Equiva key-ble Smart Lock, you'll need a user ID and the corresponding 128-bit user key. Since the manufacturer's official app doesn't provide a way to retrieve this information, you'll first need to register a new user. For that, we'll use the keyble-registeruser tool.
 
 Use the following command to register a new user:
 
