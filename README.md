@@ -77,7 +77,13 @@ Ensure that the installation completes without any errors.
 
 To run keyble-mqtt as a service on your Raspberry Pi and ensure it starts automatically on system startup, we can create a systemd service file.
 
-Create a new file named `keyble-mqtt.service` in the directory `/etc/systemd/system/` and insert the following content:
+Create a new file named `keyble-mqtt.service` in the directory `/etc/systemd/system/` with:
+
+```
+sudo nano /etc/systemd/system/keyble-mqtt.service
+```
+
+and insert the following content:
 
 ```plaintext
 [Unit]
