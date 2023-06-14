@@ -1,4 +1,4 @@
-# Equiva key-ble Smart Lock and Integration with Home Assistant using keyble and keyble-mqtt
+# Equiva key-ble Smart Lock Integration with Home Assistant using keyble and keyble-mqtt
 
 ![eq3](https://github.com/Strange-Panda/keyble-ha-setup/blob/267c88ebff28d724d5295abd09ff63c72d269e11/eqiva-bluethooth-smart-tuerschlossantrieb-r-os_142950a0-fcdf538f.png)
 
