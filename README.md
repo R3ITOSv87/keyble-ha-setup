@@ -124,9 +124,7 @@ mqtt:
       state_locked: "LOCKED"
       state_unlocked: "UNLOCKED"
       state_locking: "MOVING"
-      state_unlocking: "MOV
-
-ING"
+      state_unlocking: "MOVING"
       optimistic: false
       qos: 0
       retain: true
