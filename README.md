@@ -6,6 +6,8 @@ Before we begin, I want to emphasize that making a door lock accessible over the
 
 Alright, let's get started! I'll walk you through the steps on how to set up the Equiva key-ble Smart Lock with keyble and keyble-mqtt on a Raspberry Pi and integrate it with Home Assistant. Please note that you should already have a running Home Assistant instance and an MQTT broker installed. I won't cover the installation of these components in detail in this guide.
 
+All Glory to https://github.com/oyooyo for developing key-ble! 
+
 ## Prerequisites
 
 Before we begin, make sure you meet the following prerequisites:
