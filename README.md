@@ -102,7 +102,12 @@ sudo systemctl enable keyble-mqtt.service
 sudo systemctl start keyble-mqtt.service
 ```
 
-keyble-mqtt will now run as a service and automatically start on system startup. Check the log file at `/var/log/syslog` to ensure that the service started correctly.
+keyble-mqtt will now run as a service and automatically start on system startup. To ensure that the service started correctly, you can use the following command:
+
+```
+sudo systemctl status keyble-mqtt.service
+```
+
 
 ## Configuration in Home Assistant
 
