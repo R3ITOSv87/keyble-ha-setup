@@ -58,10 +58,10 @@ ble-registeruser tool.
 Use the following command to register a new user:
 
 ```
-keyble-registeruser -n homeassistant-q M0123456789ABK0123456789ABCDEF0123456789ABCDEFNEQ1234567
+keyble-registeruser -n homeassistant -q M0123456789ABK0123456789ABCDEF0123456789ABCDEFNEQ1234567
 ```
 
-Replace `homeassistant-q` with your desired username and `M0123456789ABK0123456789ABCDEF0123456789ABCDEFNEQ1234567` with the information encoded in the QR code of the lock's "Key Card." Hold down the "Unlock" button until the yellow light flashes to activate the pairing mode. The tool will register the user and provide the necessary arguments you'll need to control the smart lock. If you encounter any issues with setting the name, you can cancel the action with Ctrl+C. Nevertheless, the user should still be registered, and you can verify it in the manufacturer's smartphone app.
+Replace `homeassistant` with your desired username and `M0123456789ABK0123456789ABCDEF0123456789ABCDEFNEQ1234567` with the information encoded in the QR code of the lock's "Key Card." Hold down the "Unlock" button until the yellow light flashes to activate the pairing mode. The tool will register the user and provide the necessary arguments you'll need to control the smart lock. If you encounter any issues with setting the name, you can cancel the action with Ctrl+C. Nevertheless, the user should still be registered, and you can verify it in the manufacturer's smartphone app.
 
 Note down the MAC address of the smart lock (`address`), the user ID (`user_id`), and the user key (`user_key`) provided by the keyble-registeruser tool.
 
